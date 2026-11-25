@@ -1,0 +1,22 @@
+# Prompt file — Worst Superpower (u-suroto-worst-superpower-461dcdbe)
+
+Build a make.fun program/v1 entry for the competition "Worst Superpower".
+
+Task: write exactly one line, at most 140 characters, inventing the most
+useless superpower imaginable — a power so pointless that naming it is the
+whole joke. The judge is a deadpan comedy editor who ranks entries pairwise
+on: (1) genuinely useless power, (2) the uselessness lands as a joke you can
+picture, (3) unexpected/fresh idea, (4) tight wording with a concrete detail,
+(5) clear on a single reading. Avoid cliches (slow flight, invisibility while
+nobody watches) and powers that are really curses or quietly useful.
+
+Winning entry (from BENCHMARK.md, 12 variants scored, winner V2, 20/20):
+
+> I can read the minds of goldfish, but they are all thinking about the same pebble, and it is not even a nice pebble.
+
+Deliverable: main.py at the repository root. It must write the winning line
+to the output directory taken from the environment variable
+MAKEFUN_OUTPUT_DIR when set, falling back to /output when it is not, as a
+file named entry.txt. The program output must be byte-identical to entry.txt
+(no trailing newline, no extra whitespace). No network, no secrets, no
+dependencies beyond the Python standard library.
